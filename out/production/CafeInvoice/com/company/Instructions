@@ -1,0 +1,32 @@
+
+
+   /*
+    * [X] Create an Invoice class that contains an ArrayList of InvoiceItems and a date
+    *       and customer name, address and account number
+    *
+    *  [X] Create an Item class with the following properties:
+    *       Name
+    *       Price
+    *       Quantity
+    *       Taxable (TRUE or FALSE)
+    *
+    *  [X] Implement a loop functionality that allows users to enter in as
+    *       many items as they want until the user enters "no" to stop.
+    *
+    *  [X] Prompt the user for their state. Based on the state they enter,
+    *       charge them the following sales tax rates:
+    *
+    *           * MD - 6.00%
+    *           * VA - 5.75%
+    *           * DC - 5.30%
+    *           * Other states - 5.00%
+    *
+    *  [X]     Note: Only calculate the sales tax if TAXABLE is set to TRUE for that item.
+    *
+    *        Calculate the cost for each item(price * quantity)   quantity * item.price = item.total
+    *        Calculate the sub-total(the sum of each item's cost)         item.subtotal
+    *        Calculate the sales tax(only if taxable is TRUE for the item) if( Taxable == "true"){calc(tax.sum)};
+    *        Calculate the total amount(subtotal + sales tax)
+    *        Format all decimals to two decimal places. See (Formatting numbers in Canvas)
+    *
+    */

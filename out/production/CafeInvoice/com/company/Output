@@ -1,0 +1,47 @@
+
+do {
+Enter item name:
+Price:
+Quantity:
+Taxable (true|false):
+Add Another item (y|n):
+}while(anotherItem == 'y')
+
+
+
+
+My current tax rate is: [taxRate]
+Item Name          Quantity         Price           Cost               Taxable
+=========================================================================================
+itemName           quantity         item.price      item.total           Bool
+itemName           quantity         item.price      item.total           Bool
+itemName           quantity         item.price      item.total           Bool
+itemName           quantity         item.price      item.total           Bool
+
+
+
+Subtotal: subtotal.sum
+Tax Rate: tax.avg
+Sales Tax: 2
+
+
+------------------------------------------------------------------------------------------
+
+Total:  subtotal.sum+tax.sum
+
+
+
+
+  Customer Information output
+//        if (quit.equalsIgnoreCase("no")) {
+//            System.out.println();
+            System.out.println("Customer Invoice");
+            System.out.println("----------------------------------------");
+            System.out.println("Customer Name: " + i.getCustomerName());
+//            System.out.println("Transaction Date: " + invoice.getDate());
+//            System.out.println();
+//            System.out.println("Name" + "\t\t" + "Description" + "\t\t" + "Price" + "\t\t" + "Quantity" + "\t\t" + "Subtotal");
+//            for (InvoiceItems ItemsList : Item) {
+//                System.out.println(invoiceItems.getCode() + "\t\t" + invoiceItems.getName() + "\t\t" +
+//                        invoiceItems.getPrice() + "\t\t" + invoiceItems.getQuantity() + "\t\t" + invoiceItems.getSubTotal());
+//            }

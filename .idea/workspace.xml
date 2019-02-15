@@ -1,0 +1,617 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a78e9c23-1060-4f0a-8a98-62bee4e417ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../ArrayLists/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayLists/Movies_ArrayLists/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayLists/Movies_ArrayLists/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayLists/Movies_ArrayLists/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayLists/Movies_ArrayLists/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayLists/Movies_ArrayLists/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayLists/Movies_ArrayLists/out/production/Movies_ArrayLists/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ArrayLists/Movies_ArrayLists/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Arrays/Arrays.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Arrays/Locker Prompt (Arrays).txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Arrays/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../BookClassAssignment" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IffyClassAssignment/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IffyClassAssignment/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IffyClassAssignment/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IffyClassAssignment/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IffyClassAssignment/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IffyClassAssignment/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IffyClassAssignment/IffyClassAssignment.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IffyClassAssignment/out/production/IffyClassAssignment/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../IffyClassAssignment/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/AddressbookAssign.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/out/production/AddressbookAssign/com/company/Addressbookentry.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/out/production/AddressbookAssign/com/company/Addressbooksocial.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/out/production/AddressbookAssign/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/src/com/company/Addressbookentry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/src/com/company/Addressbooksocial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AddressbookAssign/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalClass/.idea/AnimalClass.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalClass/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalClass/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalClass/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalClass/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalClass/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalClass/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalClass/src/com/company/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalClass/src/com/company/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalClass/src/com/company/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimalClass/src/com/company/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/AnimalApp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/out/production/AnimalApp/com/company/Animal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/out/production/AnimalApp/com/company/AnimalApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/out/production/AnimalApp/com/company/Bird.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/out/production/AnimalApp/com/company/Cat.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/out/production/AnimalApp/com/company/Dog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/out/production/AnimalApp/com/company/Mouse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/src/com/company/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/src/com/company/AnimalApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/src/com/company/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/src/com/company/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/src/com/company/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../AnimapApp/src/com/company/Mouse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList Debug/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList Debug/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList Debug/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList Debug/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList Debug/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList Debug/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList Debug/ArrayList Debug.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList Debug/out/production/ArrayList Debug/ArrayListDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ArrayList Debug/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CafeInvoice.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CafeInvoice/META-INF/CafeInvoice.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CafeInvoice/com/company/Instructions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CafeInvoice/com/company/Invoice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CafeInvoice/com/company/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/CafeInvoice/com/company/Output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Instructions" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Invoice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HangMan/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HangMan/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HangMan/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HangMan/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HangMan/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HangMan/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HangMan/HangMan.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HangMan/out/production/HangMan/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HangMan/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Magiic8Ball/Magic8Ball-master/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Magiic8Ball/Magic8Ball-master/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Magiic8Ball/Magic8Ball-master/Magic8Ball.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Magiic8Ball/Magic8Ball-master/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zork/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zork/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zork/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zork/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zork/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zork/Zork.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zork/out/production/Zork/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Zork/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project1/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project1/Loops1/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project1/Loops1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project1/Loops1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project1/Loops1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project1/Loops1/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project1/Loops1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project1/Loops1/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project1/Loops1/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project2/Loops2/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project2/Loops2/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project2/Loops2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project2/Loops2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project2/Loops2/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project2/Loops2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project2/Loops2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project2/Loops2/Array_ArrayList2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Loops Project2/Loops2/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MethodExercises/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MethodExercises/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MethodExercises/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MethodExercises/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MethodExercises/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MethodExercises/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MethodExercises/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MethodExercises/MethodExercises.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MethodExercises/out/production/MethodExercises/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../MethodExercises/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Prime number Java.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../PseudoCode/PseudoCode1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Randoms Letters/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Randoms Letters/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Randoms Letters/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Randoms Letters/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Randoms Letters/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Randoms Letters/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Randoms Letters/Rondom Letters Project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Randoms Letters/out/production/Rondom Letters Project/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Randoms Letters/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Dice Pig Game/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Dice Pig Game/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Dice Pig Game/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Dice Pig Game/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Dice Pig Game/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Dice Pig Game/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Dice Pig Game/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Dice Pig Game/DicePig Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Dice Pig Game/Pig Die Game.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Dice Pig Game/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Week1Challenge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Week1Challenge1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge1/Week1Challenge2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge2/LogicForRoulette.Java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week1Challenge2/Solution for Roulette .java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/Week2ChallengeChipotleJr++.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/out/production/Week2ChallengeChipotleJr++/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/src/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/src/.idea/src.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2Challenge_ChipotleJr/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2Challenge_ChipotleJr/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2Challenge_ChipotleJr/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2Challenge_ChipotleJr/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2Challenge_ChipotleJr/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2Challenge_ChipotleJr/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2Challenge_ChipotleJr/Week2Challenge_ChipotleJr.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2Challenge_ChipotleJr/out/production/Week2Challenge_ChipotleJr/com/company/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week2Challenge_ChipotleJr/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Week3Challenge2/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Car Class/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Car Class/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Car Class/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Car Class/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalClass/src/com/company/AnimalApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalClass/src/com/company/AnimalApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../AnimalClass/src/com/company/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalClass/src/com/company/Bird.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookClassAssignment/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AddressbookAssign/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookClassAssignment/src/com/company/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BookClassAssignment/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Calculation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUnWithArrayLists/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayLists/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUnWithArrayLists/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayLists/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUnWithArrayLists/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayLists/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUnWithArrayLists/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayLists/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUnWithArrayLists/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayLists/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUnWithArrayLists/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimapApp/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUnWithArrayLists/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayLists/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUnWithArrayLists/FunWithArrayLists.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayLists/FunWithArrayLists.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUnWithArrayLists/out/production/FunWithArrayLists/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayLists/out/production/FunWithArrayLists/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FUnWithArrayLists/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayLists/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../IffyClassAssignment/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../HangMan/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MethodExercises/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Zork/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zork/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Movies_ArrayLists/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../IffyClassAssignment/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NewProject/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NewProject/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NewProject/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../NewProject/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Pig Die Game/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Magiic8Ball/Magic8Ball-master/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PseudoCode1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PseudoCode2.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PseudoCode/PseudoCode2.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PseudoCode3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PseudoCode/PseudoCode3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PseudoCode4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PseudoCode/PseudoCode4.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PseudoCode5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PseudoCode/PseudoCode5.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PseudoCode6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PseudoCode/PseudoCode6.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PseudoCodeMain.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../PseudoCode/PseudoCodeMain.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../Arrays/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Rondom Letters Project/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Loops Project1/Loops1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week2ChallengeChipotleJr++/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Week2Challenge_ChipotleJr/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Week2Challenge_ChipotleJr/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayLists/Movies_ArrayLists/.idea/description.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Zork/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Magiic8Ball/Magic8Ball-master/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayLists/Movies_ArrayLists/.idea/project-template.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../AnimalClass/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../untitled/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../ArrayLists/Movies_ArrayLists/Movies_ArrayLists.iml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Item.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-49">
+              <caret line="19" column="72" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="72" />
+              <folding>
+                <element signature="e#800#801#0" expanded="true" />
+                <element signature="e#832#833#0" expanded="true" />
+                <element signature="e#1149#1150#0" expanded="true" />
+                <element signature="e#1179#1180#0" expanded="true" />
+                <element signature="e#1226#1227#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Invoice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+              <folding>
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#363#364#0" expanded="true" />
+                <element signature="e#428#429#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
+                <element signature="method#Invoice#0;class#Invoice#0" />
+                <element signature="method#Invoice#1;class#Invoice#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Instructions">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="28" column="61" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="61" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Output">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/company/Output" />
+        <option value="$PROJECT_DIR$/src/com/company/Instructions" />
+        <option value="$PROJECT_DIR$/src/com/company/Calculation.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Item.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Invoice.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="471" />
+    <option name="y" value="1103" />
+    <option name="width" value="1078" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CafeInvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CafeInvoice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CafeInvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CafeInvoice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CafeInvoice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CafeInvoice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="CafeInvoice" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a78e9c23-1060-4f0a-8a98-62bee4e417ae" name="Default Changelist" comment="" />
+      <created>1550169312739</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1550169312739</updated>
+      <workItem from="1550169314532" duration="10264000" />
+      <workItem from="1550188341440" duration="40748000" />
+    </task>
+    <task id="LOCAL-00001" summary="SEcond commit message">
+      <created>1550216612119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1550216612120</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Third Commit, Completed quantity and price calculation.">
+      <created>1550263877680</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550263877680</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="51012000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="471" y="1103" width="1078" height="877" extended-state="0" />
+    <layout>
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.3011583" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.24973376" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32953367" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" visible="true" weight="0.40509555" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3044586" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.24663213" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven" order="2" weight="0.3291506" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
+      <window_info active="true" anchor="right" id="Ant Build" order="5" visible="true" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="UI Designer" order="0" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.16613418" />
+      <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="0" visible="true" weight="0.32953367" />
+      <window_info anchor="bottom" id="Database Changes" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3046632" />
+      <window_info anchor="bottom" id="Docker" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Message" order="6" />
+      <window_info anchor="bottom" id="Find" order="7" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.24248704" />
+      <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="12" />
+      <window_info anchor="right" id="Database" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Commander" order="4" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="5" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="6" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SEcond commit message" />
+    <MESSAGE value="Third Commit, Completed quantity and price calculation." />
+    <MESSAGE value="Fourth Commit, Completed quantity and price calculation." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fourth Commit, Completed quantity and price calculation." />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Instructions">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="28" column="61" selection-start-line="28" selection-start-column="39" selection-end-line="28" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Invoice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+          <folding>
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#363#364#0" expanded="true" />
+            <element signature="e#428#429#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="method#Invoice#0;class#Invoice#0" />
+            <element signature="method#Invoice#1;class#Invoice#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Calculation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Output">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-49">
+          <caret line="19" column="72" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="72" />
+          <folding>
+            <element signature="e#800#801#0" expanded="true" />
+            <element signature="e#832#833#0" expanded="true" />
+            <element signature="e#1149#1150#0" expanded="true" />
+            <element signature="e#1179#1180#0" expanded="true" />
+            <element signature="e#1226#1227#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="102" lean-forward="true" selection-start-line="102" selection-end-line="102" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
