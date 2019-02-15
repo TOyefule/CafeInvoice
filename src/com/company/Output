@@ -1,0 +1,30 @@
+
+do {
+Enter item name:
+Price:
+Quantity:
+Taxable (true|false):
+Add Another item (y|n):
+}while(anotherItem == 'y')
+
+
+
+
+My current tax rate is: [taxRate]
+Item Name          Quantity         Price           Cost               Taxable
+=========================================================================================
+itemName           quantity         item.price      item.total           Bool
+itemName           quantity         item.price      item.total           Bool
+itemName           quantity         item.price      item.total           Bool
+itemName           quantity         item.price      item.total           Bool
+
+
+
+Subtotal: subtotal.sum
+Tax Rate: tax.avg
+Sales Tax: 2
+
+
+------------------------------------------------------------------------------------------
+
+Total:  subtotal.sum+tax.sum
