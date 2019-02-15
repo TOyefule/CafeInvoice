@@ -3,24 +3,32 @@ package com.company;
 import java.util.ArrayList;
 
 public class Invoice {
+    private ArrayList<Item> invoiceItems = new ArrayList<>();
     private String date;
     private String customerName;
     private String address;
+    private String state;
     private String accountNumber;
-    private ArrayList<String> InvoiceItems = new ArrayList<>();
 
+    public ArrayList<Item> getInvoiceItems() {
+        return invoiceItems;
+    }
+
+    public void setInvoiceItems(ArrayList<Item> invoiceItems) {
+        this.invoiceItems = invoiceItems;
+    }
 
     public Invoice() {
+
     }
 
     public Invoice(String date, String customerName,
-                   String address, String accountNumber,
-                   ArrayList<String> invoiceItems) {
+                   String address, String accountNumber) {
         this.date = date;
         this.customerName = customerName;
         this.address = address;
         this.accountNumber = accountNumber;
-        InvoiceItems = invoiceItems;
+
     }
 
     public String getDate() {
@@ -54,14 +62,4 @@ public class Invoice {
     public void setAccountNumber(String accountNumber) {
         this.accountNumber = accountNumber;
     }
-
-    public ArrayList<String> getInvoiceItems() {
-        return InvoiceItems;
-    }
-
-    public void setInvoiceItems(ArrayList<String> invoiceItems) {
-        InvoiceItems = invoiceItems;
-    }
-
-
 }

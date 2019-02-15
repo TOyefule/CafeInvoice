@@ -1,89 +1,140 @@
 package com.company;
 
+
 import java.util.ArrayList;
 import java.util.Scanner;
 
 
 public class Main {
 
-    public static void main(String[] args) {Listing(); Tax();
-        boolean anotherItem = true;
+    public static void main(String[] args) {//Listing(); Tax();
+        String anotherItem = "yes";
         Scanner userInput = new Scanner(System.in);
-        ArrayList<String> InvoiceItems = new ArrayList<>();
-        Invoice i = new Invoice();
         Item item = new Item();
+        Invoice i = new Invoice();
+        ArrayList<Item> invoiceList = new ArrayList<>();
 
 
-        // Customer Information input
+        //            Customer Information input
         System.out.println("Enter your name: ");
         i.setCustomerName(userInput.nextLine());
         System.out.println("Enter your address: ");
+        i.setAddress(userInput.nextLine());
+        System.out.println("Enter your state: ");
         i.setAddress(userInput.nextLine());
         System.out.println("Enter the date: ");
         i.setDate(userInput.nextLine());
         System.out.println("Enter your account number: ");
         i.setAccountNumber(userInput.nextLine());
 
+        // System.out.println("This is a test of the System output")
+//                                    System.out.println("---------------------------------------------------------------------------------------------------------------");
+//                                    System.out.println("Customer name: " + i.getCustomerName());
+//                                    System.out.println("Address: " + i.getAddress());
+//                                    System.out.println("Date: " + i.getDate());
+//                                    System.out.println("Account Number: " + i.getAccountNumber());
+//                                    System.out.println("---------------------------------------------------------------------------------------------------------------");
 
+        String anotherOne = "";
         // Do-While Loop
-        while (anotherItem == true) {
+        while (!anotherOne.equalsIgnoreCase("no")) {
+
+            invoiceList.add(new Item());
+
             System.out.println("Enter item name: ");
-            item.setName(userInput.next());
-//            System.out.println("Price: ");
-//                item.setPrice(userInput.nextLine());
+            item.setName(userInput.nextLine());
+
+            System.out.println("Price: ");
+            item.setPrice(userInput.nextDouble());
+
             System.out.println("Quantity: ");
-            item.setQuantity(userInput.next());
+            item.setQuantity(userInput.nextInt());
+
             System.out.println("Taxable (true|false): ");
             item.setTaxable(userInput.nextBoolean());
-            System.out.println("Add Another item (True|False): ");
-            anotherItem = userInput.nextBoolean();
+            userInput.nextLine();
+
+
+            System.out.println("Add Another item (yes|no): ");
+            anotherOne = userInput.nextLine();
 
         }
 
-//
-//        public static double Tax(){
-//            String state = "";
-//            double taxRate = 0.06;
-//            if (state.equalsIgnoreCase("MD")) {
-//                taxRate = 0.06;
-//            } else if (state.equalsIgnoreCase("VA")) {
-//                taxRate = 0.0575;
-//            } else if (state.equalsIgnoreCase("DC")) {
-//                taxRate = 0.05;
-//            } else taxRate = 0.053;
-//            return taxRate;
+        System.out.println("---------------------------------------------------------------------------------------------------------------");
+        System.out.println("Customer name: " + i.getCustomerName());
+        System.out.println("Address: " + i.getAddress());
+        System.out.println("Date: " + i.getDate());
+        System.out.println("Account Number: " + i.getAccountNumber());
+        System.out.println("---------------------------------------------------------------------------------------------------------------");
+        System.out.println(anotherItem);
+        System.out.println("Item Name              Quantity                Price                    Cost                    Taxable        ");
+        System.out.println("===============================================================================================================");
+        System.out.println(item.getName() + " " + item.getQuantity() + " " + item.getPrice() + " " + item.getPrice() * item.getQuantity() + "   " + item.isTaxable() + " ");
+
+
+        //        for (Item item : invoiceList) {
+//            System.out.println(Item.getName() + " " + item.getQuantity() + "  " + item.getPrice() + "  " + item.getPrice() * item.getQuantity() + "   " + item.isTaxable() + " ");
 //        }
-
-        String quit = "yes";
-        Invoice invoice = new Invoice();
-
-
-        ArrayList<Item> invoiceItems = new ArrayList<>();
-        int tax = 0;
-        int grandTotal = 0;
-
-        // Customer Information output
-        if (quit.equalsIgnoreCase("no")) {
-            System.out.println();
-            System.out.println("Customer Invoice");
-            System.out.println("----------------------------------------");
-            System.out.println("Customer Name: " + invoice.getCustomerName());
-            System.out.println("Transaction Date: " + invoice.getDate());
-            System.out.println();
-            System.out.println("Name" + "\t\t" + "Description" + "\t\t" + "Price" + "\t\t" + "Quantity" + "\t\t" + "Subtotal");
-            for ( invoiceItems : Item) {
-                System.out.println(invoiceItems.getCode() + "\t\t" + invoiceItems.getName() + "\t\t" +
-                        invoiceItems.getPrice() + "\t\t" + invoiceItems.getQuantity() + "\t\t" + invoiceItems.getSubTotal());
-            }
-
-
-            // Do-While Loop output
-            System.out.println();
-//            System.out.println("Subtotal: $" + subTotal);
+//    }
+//        System.out.println("Subtotal: " + subTotal);
+//        System.out.println("Tax: " + tax);
+//        System.out.println();
+//        System.out.println("---------------------------------------------------------------------------------------------------------------");
+//        System.out.println("Total: " + grandTotal);
+//
+//        }
+//
+//        // Do-While Loop output
+//        //      System.out.println();
+//        //      System.out.println("Subtotal: $" + subTotal);
 //            double tax = subTotal * .06;
 //            double grandTotal = subTotal + tax;
-            System.out.println("Tax: " + tax);
-            System.out.println("Grand Total: $" + grandTotal);
-        }
+//
+//            System.out.println("Tax: " + tax);
+//            System.out.println("Grand Total: $" + grandTotal);}
+
+
     }
 }
+
+//    public class Calculation {
+//
+//        //    public static double Tax( ){
+////        String quit = "yes";
+//        String state = " ";
+//        double taxRate;
+//        double subTotal;
+////        double tax = subTotal * taxRate;
+////        double grandTotal = subTotal + tax;
+////
+//
+//        System.out.print("What State are you in? ");
+//        if (state.equalsIgnoreCase("MD")) {
+//            taxRate = 0.06;
+//        } else if (state.equalsIgnoreCase("VA")) {
+//            taxRate = 0.0575;
+//        } else if (state.equalsIgnoreCase("DC")) {
+//            taxRate = 0.053;
+//        } else(taxRate = 0.05);
+//
+//
+
+
+
+        /*
+//        *  quantity * item.price = item.total
+//        *  Calculate grand Total
+//        *  if( Taxable == "true"){calc(tax.sum)};
+//        *  (subtotal + sales tax)
+//        *
+//        * */
+//
+//
+//        return grandTotal;
+//    }
+//    }
+//
+//
+//
+//
+//}

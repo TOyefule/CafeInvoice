@@ -6,34 +6,29 @@ public class Item {
 
 
     private String name;
-    private String price;
-    private String quantity;
-    private String description;
+    private double price;
+    private int quantity;
     private boolean taxable;
-    private boolean anotherItem = false;
-    private double  code;
-    private double  subTotal;
 
-    //   Constructor
+
+    //   ConstructorX
     public Item() {
     }
 
     //   Overloaded Constructor
 
-    public Item(String name, String price, String quantity, String description,
-       boolean taxable, boolean anotherItem, double code, double subTotal) {
+    public Item(String name, double price, int quantity, boolean taxable) {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
-        this.description = description;
         this.taxable = taxable;
-        this.anotherItem = anotherItem;
-        this.code = code;
-        this.subTotal = subTotal;
+//        this.description = description;
+//        this.code = code;
     }
 
 
     //Getters and Setters
+
 
     public String getName() {
         return name;
@@ -43,28 +38,20 @@ public class Item {
         this.name = name;
     }
 
-    public String getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(String price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
-    public String getQuantity() {
+    public int getQuantity() {
         return quantity;
     }
 
-    public void setQuantity(String quantity) {
+    public void setQuantity(int quantity) {
         this.quantity = quantity;
-    }
-
-    public String getDescription() {
-        return description;
-    }
-
-    public void setDescription(String description) {
-        this.description = description;
     }
 
     public boolean isTaxable() {
@@ -74,28 +61,5 @@ public class Item {
     public void setTaxable(boolean taxable) {
         this.taxable = taxable;
     }
-
-    public boolean isAnotherItem() {
-        return anotherItem;
-    }
-
-    public void setAnotherItem(boolean anotherItem) {
-        this.anotherItem = anotherItem;
-    }
-
-    public double getCode() {
-        return code;
-    }
-
-    public void setCode(double code) {
-        this.code = code;
-    }
-
-    public double getSubTotal() {
-        return subTotal;
-    }
-
-    public void setSubTotal(double subTotal) {
-        this.subTotal = subTotal;
-    }
 }
+
