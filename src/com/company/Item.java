@@ -8,8 +8,8 @@ public class Item {
     private String name;
     private double price;
     private int quantity;
-    private boolean taxable;
-
+    private boolean isTaxable;
+    double subTotal;
 
     //   ConstructorX
     public Item() {
@@ -21,7 +21,7 @@ public class Item {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
-        this.taxable = taxable;
+        this.isTaxable = taxable;
 //        this.description = description;
 //        this.code = code;
     }
@@ -55,11 +55,11 @@ public class Item {
     }
 
     public boolean isTaxable() {
-        return taxable;
+        return isTaxable;
     }
 
-    public void setTaxable(boolean taxable) {
-        this.taxable = taxable;
+    public void setTaxable(boolean isTaxable) {
+        this.isTaxable = isTaxable;
     }
 }
 

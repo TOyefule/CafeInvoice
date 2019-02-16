@@ -35,6 +35,14 @@ public class Invoice {
         return date;
     }
 
+    public String getState() {
+        return state;
+    }
+
+    public void setState(String state) {
+        this.state = state;
+    }
+
     public void setDate(String date) {
         this.date = date;
     }
