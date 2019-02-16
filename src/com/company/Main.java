@@ -25,16 +25,15 @@ public class Main {
         System.out.println("Enter your address: ");
         i.setAddress(userInput.nextLine());
         System.out.print("What State are you in? (MD|VA|DC|Other)?  ");
-        i.setState(userInput.next
-                ());
-        if (i.getState().equalsIgnoreCase("MD")) {
-            taxRate = 0.06;
-        } else if (i.getState().equalsIgnoreCase("VA")) {
-            taxRate = 0.0575;
-        } else if (i.getState().equalsIgnoreCase("DC")) {
-            taxRate = 0.053;
-        } else taxRate = 0.05;
-        userInput.nextLine();
+        i.setState(userInput.nextLine());
+                    //        if (i.getState().equalsIgnoreCase("MD")) {
+                    //            taxRate = 0.06;
+                    //        } else if (i.getState().equalsIgnoreCase("VA")) {
+                    //            taxRate = 0.0575;
+                    //        } else if (i.getState().equalsIgnoreCase("DC")) {
+                    //            taxRate = 0.053;
+                    //        } else taxRate = 0.05;
+                    //          userInput.nextLine();
         System.out.println("Enter the date: ");
         i.setDate(userInput.nextLine());
         System.out.println("Enter your account number: ");
@@ -44,29 +43,37 @@ public class Main {
         // Do-While Loop.. While input is not 'No' program loop will continue
         while (!anotherOne.equalsIgnoreCase("no")) {
 
-            //Item information Input
+            //Item Name information Input
             System.out.println("Enter item name: ");
             item.setName(userInput.nextLine());
             String name = item.getName();
-
+            //Item Price information Input
             System.out.println("Price: ");
             item.setPrice(userInput.nextDouble());
             double price = item.getPrice();
-
+            //Item Quantity information Input
             System.out.println("Quantity: ");
             item.setQuantity(userInput.nextInt());
             int quant = item.getQuantity();
-
             // Sets Tax rate equal to 1 if Taxable is false, else taxrate will be normal.
             System.out.println("Taxable (true|false): ");
-            userInput.nextLine();
+            //userInput.nextLine();
             boolean isTaxable = Boolean.parseBoolean(userInput.next());
-            System.out.println("Taxable? " + isTaxable);
-            if (isTaxable == true) {
-                item.setTaxable(userInput.nextBoolean());
+            //   item.setTaxable(userInput.nextBoolean());
+            //  System test   System.out.println("Taxable? " + isTaxable);
+            if (isTaxable) {
+                if (i.getState().equalsIgnoreCase("MD")) {
+                    taxRate = 0.06;
+                } else if (i.getState().equalsIgnoreCase("VA")) {
+                    taxRate = 0.0575;
+                } else if (i.getState().equalsIgnoreCase("DC")) {
+                    taxRate = 0.053;
+                } else if (i.getState().equalsIgnoreCase("Other"))
+                    taxRate = 0.05;
+                } else taxRate = 0;
 
-            } else taxRate = 1;
             System.out.println("Add Another item (yes|no): ");
+                userInput.nextLine();
             anotherOne = userInput.nextLine();
 
             invoiceList.add(new Item(name, price, quant, isTaxable));
