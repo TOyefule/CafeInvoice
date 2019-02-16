@@ -8,7 +8,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-         //Tax(); Calc();
+        // Initializing Scanner, ArrayList, and doubles
         Scanner userInput = new Scanner(System.in);
         Item item = new Item();
         Invoice i = new Invoice();
@@ -24,13 +24,16 @@ public class Main {
         i.setCustomerName(userInput.nextLine());
         System.out.println("Enter your address: ");
         i.setAddress(userInput.nextLine());
-        System.out.print("What State are you in? (MD|VA|DC|Other)?  " );
+        System.out.print("What State are you in? (MD|VA|DC|Other)?  ");
         i.setState(userInput.next
                 ());
-        if (i.getState().equalsIgnoreCase("MD")){ taxRate = 0.06; }
-        else if (i.getState().equalsIgnoreCase("VA")) { taxRate = 0.0575; }
-        else if (i.getState().equalsIgnoreCase("DC")) { taxRate = 0.053; }
-        else taxRate = 0.05;
+        if (i.getState().equalsIgnoreCase("MD")) {
+            taxRate = 0.06;
+        } else if (i.getState().equalsIgnoreCase("VA")) {
+            taxRate = 0.0575;
+        } else if (i.getState().equalsIgnoreCase("DC")) {
+            taxRate = 0.053;
+        } else taxRate = 0.05;
         userInput.nextLine();
         System.out.println("Enter the date: ");
         i.setDate(userInput.nextLine());
@@ -56,10 +59,10 @@ public class Main {
 
             // Sets Tax rate equal to 1 if Taxable is false, else taxrate will be normal.
             System.out.println("Taxable (true|false): ");
-                userInput.nextLine();
+            userInput.nextLine();
             boolean isTaxable = Boolean.parseBoolean(userInput.next());
-            System.out.println("Taxable? "+ isTaxable);
-            if ( isTaxable == true) {
+            System.out.println("Taxable? " + isTaxable);
+            if (isTaxable == true) {
                 item.setTaxable(userInput.nextBoolean());
 
             } else taxRate = 1;
@@ -84,39 +87,16 @@ public class Main {
                     + item1.getPrice() * item1.getQuantity() + "                    " + item1.isTaxable() + " ");
 
             // incrementally Adds Item price times amount to item.subtotal;
-            item.subTotal += item1.getPrice()*item1.getQuantity();
+            item.subTotal += item1.getPrice() * item1.getQuantity();
         }
         System.out.println();
         System.out.println("Subtotal: $" + item.subTotal);
         System.out.println("Tax rate: " + taxRate);
-        System.out.println("Sales Tax: $" + String.format("%.02f", item.subTotal*taxRate));
+        System.out.println("Sales Tax: $" + String.format("%.02f", item.subTotal * taxRate));
         System.out.println();
         System.out.println("---------------------------------------------------------------------------------------------------------------");
-        System.out.println("Total: $" + String.format("%.02f", item.subTotal*(1+taxRate)));
-
-
-        }
+        System.out.println("Total: $" + String.format("%.02f", item.subTotal * (1 + taxRate)));
 
 
     }
-//        // Do-While Loop output
-//        //      System.out.println();
-//            System.out.println("Subtotal: $" + subTotal);
-//            double tax = subTotal * .06;
-//            double grandTotal = subTotal + tax;
-//
-//            System.out.println("Tax: " + tax);
-//
-//
-//    public class Calculation {
-//        public Calculation(String state) {
-//            this.state = state;
-//        }
-//
-//        public Calculation(String state, double taxRate, double subTotal) {
-//            this.state = state;
-//            this.taxRate = taxRate;
-//            this.subTotal = subTotal;
-
-
-//
+}
